@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/add_group_menu"
+        android:icon="@drawable/ic_add"
+        android:iconTint="@color/white"
+        android:title="Add group"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/sms_menu"
+        android:icon="@drawable/ic_sms"
+        android:iconTint="@color/white"
+        android:title="Messages"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/logout_group_menu"
+        android:icon="@drawable/ic_exit"
+        android:iconTint="@color/white"
+        android:title="Log out"
+        app:showAsAction="collapseActionView" />
+</menu>

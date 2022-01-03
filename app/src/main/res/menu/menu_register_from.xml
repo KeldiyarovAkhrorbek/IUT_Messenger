@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/report_menu"
+        android:icon="@drawable/ic_baseline_report_24"
+        android:iconTint="@color/white"
+        android:title="Group not found report"
+        app:showAsAction="always" />
+</menu>

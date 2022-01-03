@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "537602585176",
+    "firebase_url": "https://iut-messenger-230fb-default-rtdb.firebaseio.com",
+    "project_id": "iut-messenger-230fb",
+    "storage_bucket": "iut-messenger-230fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537602585176:android:afc442ccff09b0aadad02d",
+        "android_client_info": {
+          "package_name": "com.projects.iutmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537602585176-pbuhida8onc20o33ng1p9cepiqc3s1ek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.projects.iutmessenger",
+            "certificate_hash": "964b34bcd325c82433098614a72ba66ce0ae6d69"
+          }
+        },
+        {
+          "client_id": "537602585176-rs6716d54322qaq76ao34t7hec1llo0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFKLzpF5vyZGvHMxrD_1v5ux90ljLoCdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537602585176-rs6716d54322qaq76ao34t7hec1llo0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

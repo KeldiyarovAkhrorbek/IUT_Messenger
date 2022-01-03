@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">IUT Messenger</string>
+    <string name="client_id">927440792801-c4h3ei139cuqh8vt5m2lomv32v4o51ih.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

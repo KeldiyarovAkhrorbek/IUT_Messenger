@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_groups">
+
+    <fragment
+        android:id="@+id/nav_groups"
+        android:name="com.projects.iutmessenger.fragments.GroupsFragment"
+        android:label="Groups"
+        tools:layout="@layout/fragment_groups">
+        <action
+            android:id="@+id/action_nav_groups_to_addGroupFragment"
+            app:destination="@id/addGroupFragment" />
+        <action
+            android:id="@+id/action_nav_groups_to_insideGroupFragment2"
+            app:destination="@id/insideGroupFragment2" />
+        <action
+            android:id="@+id/action_nav_groups_to_messagesFragment"
+            app:destination="@id/messagesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.projects.iutmessenger.fragments.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/addGroupFragment"
+        android:name="com.projects.iutmessenger.fragments.AddGroupFragment"
+        android:label="Add group"
+        tools:layout="@layout/fragment_add_group" />
+    <fragment
+        android:id="@+id/insideGroupFragment2"
+        android:name="com.projects.iutmessenger.fragments.InsideGroupFragment"
+        android:label="InsideGroupFragment"
+        tools:layout="@layout/fragment_inside_group">
+        <action
+            android:id="@+id/action_insideGroupFragment2_to_groupChatFragment"
+            app:destination="@id/groupChatFragment" />
+        <action
+            android:id="@+id/action_insideGroupFragment2_to_viewProfileAdminFragment"
+            app:destination="@id/viewProfileAdminFragment" />
+        <action
+            android:id="@+id/action_insideGroupFragment2_to_viewProfileFragment"
+            app:destination="@id/viewProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/groupChatFragment"
+        android:name="com.projects.iutmessenger.fragments.GroupChatFragment"
+        android:label="fragment_group_chat"
+        tools:layout="@layout/fragment_group_chat" />
+    <fragment
+        android:id="@+id/viewProfileAdminFragment"
+        android:name="com.projects.iutmessenger.fragments.viewprofile.ViewProfileAdminFragment"
+        android:label="fragment_view_profile_admin"
+        tools:layout="@layout/fragment_view_profile_admin">
+        <action
+            android:id="@+id/action_viewProfileAdminFragment_to_editUserFragment"
+            app:destination="@id/editUserFragment" />
+        <action
+            android:id="@+id/action_viewProfileAdminFragment_to_editSimpleFragment"
+            app:destination="@id/editSimpleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewProfileFragment"
+        android:name="com.projects.iutmessenger.fragments.viewprofile.ViewProfileFragment"
+        android:label="fragment_view_profile"
+        tools:layout="@layout/fragment_view_profile" />
+    <fragment
+        android:id="@+id/editUserFragment"
+        android:name="com.projects.iutmessenger.fragments.viewprofile.EditUserFragment"
+        android:label="fragment_edit_user"
+        tools:layout="@layout/fragment_edit_user" />
+    <fragment
+        android:id="@+id/editSimpleFragment"
+        android:name="com.projects.iutmessenger.fragments.viewprofile.EditSimpleFragment"
+        android:label="EditSimpleFragment"
+        tools:layout="@layout/fragment_edit_simple" />
+    <fragment
+        android:id="@+id/messagesFragment"
+        android:name="com.projects.iutmessenger.fragments.MessagesFragment"
+        android:label="fragment_messages"
+        tools:layout="@layout/fragment_messages" />
+</navigation>
